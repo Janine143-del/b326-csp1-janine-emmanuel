@@ -42,7 +42,7 @@ public class Main {
 
             // SUB-MENU 1: JB UNLI CALL & TEXT
             if (choice == 1) {
-                System.out.println("\n———————————————————————————————————————————");
+                System.out.println("———————————————————————————————————————————");
                 System.out.println("|         JB UNLI CALL & TEXT             |");
                 System.out.println("———————————————————————————————————————————");
                 System.out.println("| (1) JBCOMBO10 ₱10.00 for 1 day          |");
@@ -97,7 +97,7 @@ public class Main {
 
             //SUB-MENU 2: JB PROMOS
             } else if (choice == 2) {
-                System.out.println("\n—————————————————————————————————————————————————————————————————————————————————————————————");
+                System.out.println("—————————————————————————————————————————————————————————————————————————————————————————————");
                 System.out.println("|                                       JB PROMOS                                           |");
                 System.out.println("—————————————————————————————————————————————————————————————————————————————————————————————");
                 System.out.println("| (1) GORAFUN ₱20.00 UNLI DATA for FB, Tiktok and Instagram for 1 day                       |");
@@ -152,7 +152,7 @@ public class Main {
 
             // SUB-MENU 3: UTANG LOADS
             } else if (choice == 3) {
-                System.out.println("\n——————————————————————————————————————————————————");
+                System.out.println("——————————————————————————————————————————————————");
                 System.out.println("|                  Utang Loads                   |");
                 System.out.println("——————————————————————————————————————————————————");
                 System.out.println("| (1) COMBO15 Unli Call & Text for 1 day         |");
@@ -184,10 +184,10 @@ public class Main {
 
             // MENU 4: CHECK BALANCE
             } else if (choice == 4) {
-                System.out.println("\n——————————————————————————————————————————");
-                System.out.println("|             ACCOUNT BALANCE            |");
                 System.out.println("——————————————————————————————————————————");
-                System.out.printf("|  Remaining Balance: ₱%-18.2f|\n", balance);
+                System.out.println("|             LOAD BALANCE               |");
+                System.out.println("——————————————————————————————————————————");
+                System.out.printf("|  Remaining Balance: ₱%-18.2f |\n", balance);
                 System.out.println("——————————————————————————————————————————");
                 System.out.print("Press Enter to continue...");
                 scanner.nextLine();
